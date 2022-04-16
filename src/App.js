@@ -1,10 +1,9 @@
 import React from 'react';
+import Board from './Board';
 
 function App() {
   return (
-    <div className="App">
-      First init      
-    </div>
+    <Board knightPosition={[7, 4]} />
   );
 }
 
